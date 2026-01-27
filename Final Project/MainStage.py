@@ -3,7 +3,7 @@ from SnakeBattleGame import Game
 from snake import Snake
 
 # STUDENT"S SNAKES
-from MySnakeTemplate import MySnakeTemplate
+from Minseop import Minseop
 from MySnakeTemplate2 import MySnakeTemplate2
 
 # Screen dimensions
@@ -17,7 +17,7 @@ def main():
     global snakes, WIDTH, m, n
     
     # Add snakes
-    snakes.append(MySnakeTemplate())
+    snakes.append(Minseop())
     snakes.append(MySnakeTemplate2())
 
     # Initialize Game() and start PyGame
